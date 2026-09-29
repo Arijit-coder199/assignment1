@@ -2,19 +2,19 @@ function Navbar() {
     return (
         <nav className="fixed top-0 left-0 z-50 w-full px-4 pt-4 sm:px-6">
             <div className="mx-auto flex max-w-7xl items-center justify-between rounded-2xl border border-border-subtle bg-surface/85 px-5 py-3 backdrop-blur-xl sm:px-6">
-                
+
                 {/* Logo */}
                 <a
                     href="#"
                     className="shrink-0 text-xl font-semibold tracking-tight text-text-primary transition-opacity duration-200 hover:opacity-80"
                 >
-                    Himan
+                    Arijit
                     <span className="text-text-muted">.</span>
                 </a>
 
                 {/* Navigation */}
                 <ul className="hidden items-center gap-1 md:flex">
-                    
+
                     <li>
                         <a
                             href="#"
